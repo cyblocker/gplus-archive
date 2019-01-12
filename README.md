@@ -1,7 +1,7 @@
 # gplus-archive
-Generate an HTML file to show the archived Google+ Posts.
+Generate HTML files to show the archived Google+ Posts.
 
-生成单一网页文件来展示下载下来的Google+信息流数据。
+生成网页文件来展示下载下来的Google+信息流数据。
 
 ## Getting Started 开始使用
 
@@ -31,11 +31,13 @@ Get the archive.py script and run. Or run the binary in [Release](https://github
 获取 archive.py 脚本并运行，运行中需要输入信息流中信息数据的文件夹路径。Windows 用户也可以使用 [Release](https://github.com/cyblocker/gplus-archive/releases/latest) 中的可执行文件。
 ```
 python archive.py
-Enter the path of exported Google+ Stream data post folder (Takeout/Google+ Stream/Posts):
-~/path/to/Takeout/Google+ Stream/Posts
+Enter the path of exported Google+ Stream data post folder (Takeout/Google+ Stream/Posts):~/path/to/Takeout/Google+ Stream/Posts
+How many posts you want to show on one page? Enter -1 if unlimited: -1
 The generated HTML file is saved as ~/path/to/Takeout/Google+ Stream/Posts/archive.html
 Upload the file with all image filed under posts folder to serve it online
 ```
+
+The generated files are archive.html and archive-n.html. Please upload them all with all image files in Posts folder to serve it online.
 
 ## License 开源许可
 
