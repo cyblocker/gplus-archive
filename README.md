@@ -39,6 +39,8 @@ Upload the file with all image filed under posts folder to serve it online
 
 The generated files are archive.html and archive-n.html. Please upload them all with all image files in Posts folder to serve it online.
 
+生成的文件是 archive.html 和 archive-n.html，如果想要网络访问，请将所有archive开头的html文件和图像文件放在同一目录下。
+
 ## License 开源许可
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
