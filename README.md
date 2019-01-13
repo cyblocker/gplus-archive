@@ -1,4 +1,4 @@
-# gplus-archive
+# Google+ Archive
 Generate HTML files to show the archived Google+ Posts.
 
 生成网页文件来展示下载下来的Google+信息流数据。
